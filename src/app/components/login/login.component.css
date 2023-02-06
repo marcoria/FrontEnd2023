@@ -1,0 +1,26 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #11b8cb;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgb(17, 181, 203), rgb(37, 220, 252));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgb(17, 197, 203), rgb(37, 238, 252))
+    
+    }
+    #formlogin { 
+        /*background: #cb1158;*/
+    }
+    .mb-md-5 { 
+        /*background: #cb115b;*/
+    }
+    .container { 
+        background:peachpuff;
+    }
+    .vh-100 { 
+        background: peachpuff;
+    }
+    .card-body { 
+        background: palevioletred;
+    }

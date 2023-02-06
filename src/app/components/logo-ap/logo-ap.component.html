@@ -1,0 +1,17 @@
+<div class="row">
+    <div class="container">
+        <div class="logo">
+            <img src="../../../assets/logo.png" id="logoAP">
+        </div>
+        <div class="redes">
+            <a href="https://www.facebook.com/marcelavanesa.coria"><img src="../../../assets/icons/facebook.png" id="facebook"></a>
+            <a href="https://www.linkedin.com/in/marcela-vanesa-coria-13766324a/"><img src="../../../assets/icons/linkedin.png" id="linkedin"></a>
+            <a href="https://github.com/marcoria"><img src="../../../assets/icons/github.png" id="github"></a>
+            <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged">INICIAR SESSION</button>
+            <button type="button" class="btn btn-outline-light" (click)="onLogOut()" *ngIf="isLogged">CERRAR SESSION</button>
+        </div>
+
+    </div>
+
+</div>
+
